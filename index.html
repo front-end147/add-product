@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create content with JavaScript</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="modifyProducts">
+        <input type="text" name="imageURL" id="urlOfImgProduct" placeholder="Enter image URL*" required value="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJvZHVjdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" />
+        <input type="text" name="title" id="titleOfProduct" placeholder="Enter product title*" required value="Red Nike Shoes" />
+        <input type="text" name="desc" id="descOfProduct" placeholder="Enter product description*" required value="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores explicabo, quos beatae eaque dolorem nulla?" />
+        <input type="number" name="price" id="priceOfProduct" placeholder="Enter the Price*" required value="120" />
+        <button class="addProductBtn">Add Product</button>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="imgBox">
+            <img src="https://images.unsplash.com/photo-1581235720704-06d3acfcb36f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2R1Y3R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" />
+          </div>
+          <div class="content">
+            <h3 class="title">Small Car</h3>
+            <span class="price">$30</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores explicabo, quos beatae eaque dolorem nulla?</p>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+        <!-- here the products will add dynamically -->
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
